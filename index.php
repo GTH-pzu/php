@@ -43,7 +43,7 @@ echo $prohlaseni."<BR>";
 $pristup_odepren = TRUE;
 if ($pristup_odepren) echo "Na tuto stránku se nemůžete dostat bez autorizace";
 ?>
-
+<br>
 <?
 $muj_string="Pepa";
 $muj_integer=2;
