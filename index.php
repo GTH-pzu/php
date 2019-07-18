@@ -1,4 +1,11 @@
-
+<TABLE>
+<TR><TD>Číslo</TD><TD>Druhá mocnina</TD></TR>
+<? $i=1; while ($i<=10):?>
+    <TR><TD><?echo $i?></TD>
+    <TD><?echo $i*$i?></TD></TR>
+<?  $i++; endwhile; ?>
+</TABLE>
+<br>
 <HTML> 
 Já jsem speciální stránka. Vím, že právě je <?echo Date("G:i")?>
 </HTML>
