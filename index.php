@@ -38,6 +38,11 @@ echo $plat."<BR>";
 echo $disketa."<BR>";
 echo $prohlaseni."<BR>";
 ?>
+<br>
+<?
+$pristup_odepren = TRUE;
+if ($pristup_odepren) echo "Na tuto stránku se nemůžete dostat bez autorizace";
+?>
 
 <?
 $muj_string="Pepa";
