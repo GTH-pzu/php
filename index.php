@@ -38,6 +38,14 @@ echo $plat."<BR>";
 echo $disketa."<BR>";
 echo $prohlaseni."<BR>";
 ?>
+<br>
+<?
+$fronta[1]="Petr";
+$fronta[2]="Pavel";
+$fronta[3]="Maruška";
+$fronta[4]="Eva";
+$fronta[5]="LinuxSoft tým";
+?>
 
 <?
 $a=0.1; $b=0.7;
