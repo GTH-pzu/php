@@ -1,6 +1,6 @@
 <TABLE>
 <TR><TD>Číslo</TD><TD>Druhá mocnina</TD></TR>
-<? $i=1; while ($i<=10):?>
+<? $i=1; while ($i<=20):?>
     <TR><TD><?echo $i?></TD>
     <TD><?echo $i*$i?></TD></TR>
 <?  $i++; endwhile; ?>
