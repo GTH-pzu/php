@@ -23,7 +23,7 @@ Ještě se na to budu muset podívat.
 <?
 # skriptu je úplně jedno, co tu bude
 ?>
-
+<br>
 <?
 //logický typ
 $mam_malo_penez = TRUE;
@@ -37,4 +37,9 @@ echo $mam_malo_penez."<BR>";
 echo $plat."<BR>";
 echo $disketa."<BR>";
 echo $prohlaseni."<BR>";
+?>
+
+<?
+$a=0.1; $b=0.7;
+echo 0.8-$a-$b;
 ?>
