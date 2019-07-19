@@ -5,6 +5,10 @@ function PocetDnu ($mesic, $rok)
 }
 ?>
 
+<?
+   echo PocetDnu (07, 2019);
+?>
+<br>
 <TABLE>
 <TR><TD>Číslo</TD><TD>Druhá mocnina</TD></TR>
 <? $i=1; while ($i<=20):?>
