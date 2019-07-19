@@ -14,5 +14,5 @@ function PocetDnu ($mesic, $rok)
 </TABLE>
 <br>
 <HTML> 
-Já jsem speciální stránka. Vím, že právě je <?echo Date("G:i")?>
+Já jsem speciální stránecka. Vím, že právě je <?echo Date("G:i")?>
 </HTML>
