@@ -26,6 +26,13 @@ function PrvniDen ($mesic, $rok)
 
 <br>
 
+<?
+$uzivatel="Petr";
+$server="Linuxsoft";
+echo "Uživatel ".$uzivatel." je vítán na serveru ".$server."!<BR>";
+echo "Uživatel $uzivatel je vítán na serveru $server!<BR>";
+?>
+
 <HTML> 
 Já jsem speciální stránecka. Vím, že právě je <?echo Date("G:i")?>
 </HTML>
