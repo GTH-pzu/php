@@ -6,7 +6,7 @@ function PocetDnu ($mesic, $rok)
 ?>
 
 <?
-   echo PocetDnu (07, 2019);
+   echo PocetDnu (02, 2019);
 ?>
 <br>
 <TABLE>
