@@ -22,7 +22,7 @@ function PrvniDen ($mesic, $rok)
 ?>
 <br>
 
-<? $sloupcu = date("W", mktime(0, 0, 0, $mesic, $PocetDnu-7, $rok)) - date("W", mktime(0, 0, 0, $mesic, 1+7, $rok))+4; ?>
+<? echo $sloupcu = date("W", mktime(0, 0, 0, $mesic, $PocetDnu-7, $rok)) - date("W", mktime(0, 0, 0, $mesic, 1+7, $rok))+4; ?>
 
 <br>
 
