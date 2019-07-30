@@ -21,6 +21,11 @@ function PrvniDen ($mesic, $rok)
    echo PrvniDen (08, 2019);
 ?>
 <br>
+
+<? $sloupcu = date("W", mktime(0, 0, 0, $mesic, $PocetDnu-7, $rok)) - date("W", mktime(0, 0, 0, $mesic, 1+7, $rok))+4; ?>
+
+<br>
+
 <HTML> 
 Já jsem speciální stránecka. Vím, že právě je <?echo Date("G:i")?>
 </HTML>
