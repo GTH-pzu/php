@@ -6,16 +6,20 @@ function PocetDnu ($mesic, $rok)
 ?>
 
 <?
+function PrvniDen ($mesic, $rok)
+{
+  $anglickeporadi = date("w", mktime(0, 0, 0, $mesic, 1, $rok));
+  return ($anglickeporadi==0) ? 7 : $anglickeporadi;
+}
+?>
+
+<?
    echo PocetDnu (02, 2019);
 ?>
 <br>
-<TABLE>
-<TR><TD>Číslo</TD><TD>Druhá mocnina</TD></TR>
-<? $i=1; while ($i<=20):?>
-    <TR><TD><?echo $i?></TD>
-    <TD><?echo $i*$i?></TD></TR>
-<?  $i++; endwhile; ?>
-</TABLE>
+<?
+   echo PrvniDen (08, 2019);
+?>
 <br>
 <HTML> 
 Já jsem speciální stránecicka. Vím, že právě je <?echo Date("G:i")?>
