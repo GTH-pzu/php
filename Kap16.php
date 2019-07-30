@@ -22,5 +22,5 @@ function PrvniDen ($mesic, $rok)
 ?>
 <br>
 <HTML> 
-Já jsem speciální stránecicka. Vím, že právě je <?echo Date("G:i")?>
+Já jsem speciální stránecka. Vím, že právě je <?echo Date("G:i")?>
 </HTML>
