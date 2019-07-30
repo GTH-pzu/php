@@ -33,6 +33,8 @@ echo "Uživatel ".$uzivatel." je vítán na serveru ".$server."!<BR>";
 echo "Uživatel $uzivatel je vítán na serveru $server!<BR>";
 ?>
 
+<br>
+
 <HTML> 
 Já jsem speciální stránecka. Vím, že právě je <?echo Date("G:i")?>
 </HTML>
