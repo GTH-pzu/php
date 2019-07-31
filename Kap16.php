@@ -40,6 +40,14 @@ sort($os);
 print_r($os);
 ?>
 <br>
+<?
+$pravda="Software is like sex... it's better when it's free of charge";
+$pole=explode(" ", $pravda);
+foreach ($pole as $cast) {
+   echo "$cast<br>\n";
+}
+?>
+<br>
 <HTML> 
 Já jsem speciální stránecka. Vím, že právě je <?echo Date("G:i")?>
 </HTML>
