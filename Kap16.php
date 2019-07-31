@@ -34,7 +34,12 @@ echo "Uživatel $uzivatel je vítán na serveru $server!<BR>";
 ?>
 
 <br>
-
+<?
+$os=Array("Linux", "Windows", "Solaris", "FreeBSD");
+sort($os);
+print_r($os);
+?>
+<br>
 <HTML> 
 Já jsem speciální stránecka. Vím, že právě je <?echo Date("G:i")?>
 </HTML>
