@@ -48,6 +48,17 @@ foreach ($pole as $cast) {
 }
 ?>
 <br>
+<?
+  function JeCeleCislo ($cislo)
+  {
+    return ereg("^[\+\-]?[1234567890]+$",$cislo);
+  }
+  echo (integer) JeCeleCislo ("1");
+  echo (integer) JeCeleCislo ("-6");
+  echo (integer) JeCeleCislo ("3.5");
+  echo (integer) JeCeleCislo ("4 kusy");
+?>
+<br>
 <HTML> 
 Já jsem speciální stránecka. Vím, že právě je <?echo Date("G:i")?>
 </HTML>
